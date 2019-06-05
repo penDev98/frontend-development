@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <p>First Name <input placeholder="George" focused></p>
+            <p>Last Name <input placeholder="Devis"></p>
+            <p>Male <input type="radio"> Female <input type="radio"> Other <input type="radio"></p>
+            <p>Preferred contact method: Email <input type="radio"> Phone <input type="radio"></p>
+            <p>Email <input type="email" placeholder="your@email.com"></p>
+            <p>Phone <input placeholder="+359885236225"></p>
+            <p>Town
+                <select>
+                    <option>Varna</option>
+                    <option>Plovdiv</option>
+                    <option>Burgas</option>
+                    <option>Sofia</option>
+                    <option>Pleven</option>
+                </select>
+            </p>
+            <p>Age <input type="number" min="18" max="70"></p>
+            <p>Programming Language <input list="languages">
+                <datalist id="languages">
+                    <option value="Java">
+                    <option value="PHP">
+                    <option value="C#">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="Ruby">
+                    <option value="Other">
+                </datalist>
+            </p>
+            <p><textarea rows=5 cols=20 placeholder="More information..."></textarea></p>
+            <p><input type="checkbox" id='checkit'><label for="checkit">I agree the Terms and Conditions</label></p>
+            <p><input type="submit" value="Send"></p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
