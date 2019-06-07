@@ -1,0 +1,15 @@
+html { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+body { 
+    background: rgb(238, 238, 238);
+    margin: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    height: 400px;
+}

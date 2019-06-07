@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2rem;
+    box-sizing: inherit;
+    margin: 10px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    padding: 0 2rem 0 0;
+}
+
+nav > ul > li > a{
+    color: green;
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+}
+
+hr { 
+    padding: 1px;
+    background-color: black;
+}
+
+header {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: inherit;
+    margin-top: 50px;
+}
+
+header > h1 {
+    display: inline-block;
+    margin: 1rem 5rem 0 0;
+}
